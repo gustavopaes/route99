@@ -1,0 +1,9 @@
+{
+  "name": "route99",
+  "description": "NodeJS route manager for API RESTful",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Gustavo Paes <gustavo.paes@gmail.com>",
+  "repository": "https://git.gustavopaes.net/gpaes/route99",
+  "dependencies": {}
+}
