@@ -96,7 +96,7 @@ app.use(function serverName(req, res) {
 
 ### `before`
 
-Code to be executed before each request in specific route.
+Code to be executed before first request in specific route.
 
 ```javascript
 module.exports = function(app) {
