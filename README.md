@@ -139,6 +139,7 @@ module.exports = function(app) {
 
 ### Improve
 - [ ] Tests
+- [ ] `each` (execute code for each request)
 
 ### Know issues
 - [ ] api `before` do not receive `req` and `res` objects.
