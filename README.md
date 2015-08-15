@@ -140,7 +140,7 @@ module.exports = function(app) {
 - [ ] DELETE
 
 ### Improve
-- [ ] Tests
+- [x] Tests
 - [ ] `each` (execute code for each request)
 
 ### Know issues
