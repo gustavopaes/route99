@@ -132,13 +132,13 @@ module.exports = function(app) {
 ## To Do / Issues
 
 ### HTTP Methods
-[x] GET
-[ ] POST
-[ ] PUT
-[ ] DELETE
+- [x] GET
+- [ ] POST
+- [ ] PUT
+- [ ] DELETE
 
 ### Improve
-[ ] Tests
+- [ ] Tests
 
 ### Know issues
-[ ] api `before` do not receive `req` and `res` objects.
+- [ ] api `before` do not receive `req` and `res` objects.
