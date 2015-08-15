@@ -1,9 +1,23 @@
 {
   "name": "route99",
   "description": "NodeJS route manager for API RESTful",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "license": "MIT",
   "author": "Gustavo Paes <gustavo.paes@gmail.com>",
-  "repository": "https://git.gustavopaes.net/gpaes/route99",
-  "dependencies": {}
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gustavopaes/route99.git"
+  },
+  "dependencies": {},
+  "main": "src/route99.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "route",
+    "router",
+    "routing",
+    "restful",
+    "server"
+  ]
 }
