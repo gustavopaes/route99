@@ -14,8 +14,7 @@ var DEFAULT_CONFIG = {
  * Erro 404 padrão.
  */
 function _defaultNotFound(req, res) {
-  res.writeHead(404, {'Content-Type': 'text/plain'});
-  res.end('Erro 404, página não encontrada\n');
+  res.send(404, { error: true, message: '404 Not Found' });
 }
 
 /**
