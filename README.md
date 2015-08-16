@@ -139,8 +139,9 @@ module.exports = function(app) {
 - [ ] DELETE
 
 ### Improve
-- [x] Tests
-- [ ] `each` (execute code for each request)
+- [x] Implement Tests
+- [ ] Implement API `each` (execute code for each request)
+- [ ] Implement "not allowed" response
 
 ### Know issues
 - [ ] api `before` do not receive `req` and `res` objects.
