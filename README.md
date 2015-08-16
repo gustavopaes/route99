@@ -1,5 +1,7 @@
 # Route99
 
+[![NPM](https://nodei.co/npm/route99.png?downloads=true)](https://nodei.co/npm/route99/)
+
 [![Build Status](https://travis-ci.org/gustavopaes/route99.svg?branch=master)](https://travis-ci.org/gustavopaes/route99)
 
 The `Route99` was developed to be simple. It is a server and route manager to create API Restful services.
