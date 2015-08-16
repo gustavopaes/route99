@@ -90,10 +90,9 @@ Register not found error.
 var Route99 = require('route99');
 var app = new Route99();
 
-app.use(function serverName(req, res) {
-  res.writeHead(404, {'Content-Type': 'text/json'});
-  res.end({ code: 404, success: false, error: true });
-});
+app.notFound(function(req, res) { 
+  res.send(404, { code: 404, success: false, error: true }); 
+}); 
 ```
 
 ### `before`
